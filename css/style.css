@@ -1,0 +1,33 @@
+.color-mode {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.color-mode:hover {
+  color: #f1a7b7;
+}
+
+body.darkmode {
+  background-color: rgb(32, 32, 44);
+  color: white;
+}
+
+.darkmode span {
+  color: whitesmoke;
+}
+
+.darkmode i {
+  color: whitesmoke;
+}
+
+.darkmode .abi {
+  color: whitesmoke;
+}
+
+.darkmode button {
+  color: whitesmoke;
+}
+
+.darkmode #abi {
+  color: whitesmoke;
+}
