@@ -1,0 +1,193 @@
+.color-mode {
+    cursor: pointer;
+  }
+  
+  .color-mode:hover {
+    color: #f1a7b7 !important;
+  }
+  
+  body.darkmode {
+    background-color: rgb(32, 32, 44);
+    color: white;
+  }
+  
+  .darkmode span {
+    color: whitesmoke;
+  }
+  
+  .darkmode i {
+    color: whitesmoke;
+  }
+  
+  .darkmode button {
+    color: whitesmoke;
+  }
+  
+  .darkmode #abi {
+    color: whitesmoke;
+  }
+  
+  .darkmode small {
+    color: whitesmoke !important;
+  }
+  
+  .darkmode .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+  }
+  
+  .darkmode .nav-item .nav-link .rosa:hover {
+    color: #f1a7b7 !important;
+  }
+  
+  .animated {
+    position: relative;
+  }
+  
+  .animated-info {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+    min-width: 260px;
+    position: relative;
+  }
+  
+  .animated-item {
+    color: #ffc200;
+  }
+  
+  .animated-item {
+    font-size: 38px;
+    line-height: inherit;
+    display: block;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    animation: BottomTotop 6s linear infinite 0s;
+  }
+  .animated-item:nth-child(2n + 2) {
+    animation-delay: 2s;
+  }
+  .animated-item:nth-child(3n + 3) {
+    animation-delay: 4s;
+  }
+  
+  @keyframes BottomTotop {
+    0% {
+      opacity: 0;
+    }
+    5% {
+      opacity: 0;
+      transform: translateY(5px);
+    }
+    10% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+    25% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+    30% {
+      opacity: 0;
+      transform: translateY(5px);
+    }
+    80% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* navbar */
+  
+  .navbar-light .navbar-nav .nav-link:focus,
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #ffc200;
+    font-weight: bold;
+  }
+  .navbar-light .navbar-nav .nav-link:focus span,
+  .navbar-light .navbar-nav .nav-link:hover span {
+    transform: translateY(-100%);
+  }
+  
+  .navbar-light .navbar-toggler-icon {
+    background: none;
+  }
+  
+  .navbar-toggler {
+    border: 0;
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    outline: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  .navbar-toggler:focus {
+    outline: none;
+  }
+  .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:first-child {
+    transform: rotate(45deg);
+    top: 6px;
+  }
+  .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:nth-child(2) {
+    display: none;
+  }
+  .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:last-child {
+    transform: rotate(-45deg);
+    bottom: 1px;
+  }
+  .navbar-toggler .navbar-toggler-icon {
+    background: #212121;
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin: 5px 0;
+    transition: all 0.4s ease;
+    position: relative;
+  }
+  
+  .darkmode .table-light {
+  
+      color: rgb(156, 142, 142);
+      background-color: #343a40 !important ;
+  }
+    .darkmode .table-light td,
+    .darkmode .table-light th,
+    .darkmode .table-light thead th {
+      border-color: #454d55 !important;
+    }
+    .darkmode .table-light.table-bordered {
+      border: 0;
+    }
+    .darkmode .table-light.table-striped tbody tr:nth-of-type(odd) {
+      background-color: rgba(7, 1, 1, 0.05) !important;
+    }
+    .darkmode .table-light.table-hover tbody tr:hover {
+      color: #fff;
+      background-color: rgba(255, 255, 255, 0.075) !important;
+    }
+  
+    .darkmode .table-light {
+      color: inherit;
+    }
+    .darkmode .table-light tbody + tbody,
+    .darkmode .table-light td,
+    .darkmode .table-light th,
+    .darkmode .table-light thead th {
+      border-color: #dee2e6;
+    }
+    .table .thead-dark th {
+      color: inherit;
+      border-color: #dee2e6;
+    }
+  
+    
+  
+    
+  
